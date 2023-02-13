@@ -1,0 +1,33 @@
+.numbers>h3 {
+    margin-top: 15rem;
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #677294;
+    padding-bottom: 4rem;
+}
+
+.clients {
+    width: 90%;
+    margin-left: auto;
+
+}
+
+.clients1>img{  
+    width: 23px;
+}
+.clients1>.pi{
+    font-family: 'Georama',sanserif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #08054E;
+}
+.clients1>.py{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #677294;
+}
+

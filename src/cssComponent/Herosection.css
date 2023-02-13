@@ -1,0 +1,15 @@
+.banner-images {
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    background-color: #F2F5FF;
+    overflow: hidden;
+}
+
+.image-header>img{
+
+    width: 39rem;
+    height: 23rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}

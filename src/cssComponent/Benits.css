@@ -1,0 +1,100 @@
+.benithead{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10rem
+}
+.benithead>h2{
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #677294;
+}
+.benithead>p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #677294;
+}
+.rwbenefits{
+    justify-content: center;
+    margin-top: 4rem;
+}
+.clbenefits>img{
+    width:62px;
+}
+.clbenefits>h3{
+    font-size: 1.75rem;
+    margin-top: 2rem;
+}
+.clbenefits>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #677294;
+    margin-top: 2rem;
+}
+.benefiterowstyle>img{
+     width:100%
+}
+.benefiterowstyle>h3{
+    margin-top: -13rem;
+    width: 30%;
+    padding-left: 4rem;
+    font-family: 'Georama',sansderif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #08054E;
+}
+.benefiterowstyle>.start-investing-button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #2835D5;
+    margin-left: 4rem;
+    width: 17%;
+    height: 17%;
+    border-radius: 27px;
+    color: #ffffff;
+    border: none;
+ 
+}
+
+@media (max-width:600px){
+
+    .benefiterowstyle>h3 {
+        margin-top: -6rem;
+        width: 38%;
+        padding-left: 2rem;
+        font-family: 'Georama',sansderif;
+        font-size: 11px;
+        font-weight: 700;
+        color: #08054E;
+    }
+
+    .benefiterowstyle>.start-investing-button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        background-color: #2835D5;
+        margin-left: 2rem;
+        width: 28%;
+        height: 27%;
+        border-radius: 27px;
+        color: #ffffff;
+        border: none;
+    }
+    .rwbenefits {
+        justify-content: center;
+        margin-top: 4rem;
+        /* width: 26rem; */
+        padding-left: 2rem;
+    }
+}

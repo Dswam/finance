@@ -1,0 +1,206 @@
+.secondHeroRow{
+    background-color: #ffffff;
+    height: 100px;
+    width: 80%;
+    margin-top: -3rem;
+    border-radius: 17px 17px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.stocks-mutual-gold-bonds{
+    display: flex !important;
+    justify-content: space-around !important;
+    padding-top: 13px;
+}
+
+.investment-advice>p{
+
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: center;
+}
+.stocks.MutualFunds.Gold.Bonds{
+    text-align: center !important;
+}
+.stocks-img>img{
+    width: 48px;
+}
+
+.stocks-img1>img{
+    width: 33px;
+    margin-left: 33%;
+}
+.stocks-img2>img{
+    width: 33px;
+}
+.stocks-img3>img{
+    width: 33px;
+}
+.stocks-img>p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.stocks-img1>p{
+      text-align: center;
+      font-weight: bolder;
+}
+.stocks-img2>p{
+      text-align: center;
+      font-weight: bolder;
+}
+.stocks-img3>p{
+      text-align: center;
+      font-weight: bolder;
+}
+.country{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F5FF;
+    border-radius: 16px;
+}
+.country>img{
+    width: 52%;
+    height: 50%;
+    padding-top: 2rem;
+    padding-right: 14px;
+}
+.country>p{
+    font-size: 23px !important;
+    font-weight: bolder !important;
+    padding-left: 10px !important;
+    padding-top: 6px !important;
+}
+.aiDriven{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+
+    
+}
+.savartportfolio{
+    width: 80%;
+    background-size: cover;
+    background: #08054E;
+    border-radius: 15px;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstInnerContainer{
+    display: flex;
+  
+}
+.firstInnerContainer>img{
+    height: 300px;
+    padding-top: 31px;
+}
+.percentage1{
+    font-family: 'Georama',sansderif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2856F0;
+}
+
+span {
+    font-size: 28px;
+}
+.percentage2{
+    font-family: 'Roboto',sansderif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.percentage3{
+    font-family: 'Roboto',sansderif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #FF9505;
+    margin: 10px 0;
+}
+.percentage4{
+    font-family: 'Roboto',sansderif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.letter{
+    padding-left: 38px;
+    padding-top: 17px;
+}
+.secondInnerContainer>img{
+    width: 100% !important;
+   
+}
+.making{
+    margin-top: 6%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    width: 50%;
+
+}
+.money {
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.money>.imgmoney1{
+    width: 17% !important;
+}
+
+.money>.imgmoney2{
+    padding-left: 5rem;
+    padding-right: 9rem;
+    width: 100%;
+    margin-top: -7rem;
+    height: 100%;
+    border-radius: 23px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    background: none;
+    border: none;
+}
+.secondInnerContainer{
+    margin-top: -1rem;
+}
+.vedioss{
+
+}
+
+@media(max-width:600px){
+
+
+    .savartportfolio {
+    
+        margin-top: 22rem;
+    
+    }
+
+
+    .firstInnerContainer {
+  
+        margin-bottom: 4rem;
+    }
+
+    .secondInnerContainer {
+        margin-bottom: 5rem;
+    }
+    .making {
+        
+        font-size: 23px;
+        width: 78%;
+        margin-bottom: 3rem;
+    }
+    .money>.imgmoney1 {
+        width: 28% !important;
+        margin-left: 4rem;
+    }
+}
