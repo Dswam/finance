@@ -73,8 +73,9 @@ const Loves = () => {
             <div className='row'>
                 <div className='col-lg-12 col-sm-12 dreamup'>
                     <img src={dreamup} alt=""/>
-                    <h3>DREAM UP</h3>
-                    <h3>Convert your financial dreams into reality.</h3>
+                    <h2>DREAM UP</h2>
+                    <p>Convert your financial dreams into reality.</p>
+                    <button className='btnhas'>Get Started</button>
                 </div>
             </div>
         </div>

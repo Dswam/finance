@@ -48,3 +48,58 @@ margin-left: auto;
 .dreamup>img{
     width: 100%;
 }
+
+.dreamup>h2{
+    font-family: 'Georama',sansderif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2835D5;
+    margin-top: -18rem;
+    margin-left: 12rem;
+}
+
+
+.dreamup >p {
+    font-family: 'Georama',sansderif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #08054E;
+    padding-left: 12rem;
+}
+
+
+.btnhas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #2835D5;
+    margin-left: 12rem;
+    width: 10%;
+    height: 17%;
+    border-radius: 27px;
+    color: #ffffff;
+    border: none;
+}
+/***********************************/
+@media(max-width:600px){
+
+    .dreamup>h2 {
+
+        margin-top: -6rem;
+        margin-left: 4rem;
+    }
+    .dreamup >p {
+        font-family: 'Georama',sansderif;
+        font-size: 13px;
+        font-weight: 700;
+        color: #08054E;
+        padding-left: 4rem;
+    }
+    .btnhas {
+        margin-left: 4rem;
+        width: 21%;
+        height: 8%;
+        position: absolute;
+        margin-top: -14px;
+    }
+}
