@@ -1,10 +1,157 @@
 .mediabody {
     margin-top: 14rem;
 }
-.mediacol>h3{
+
+.mediacol>h3 {
     font-family: 'Georama', sans-serif;
     font-size: 28px;
     font-weight: 700;
     color: #677294;
     text-align: center;
+}
+
+.subscribeheader {
+
+    margin-top: 3rem;
+
+
+
+}
+
+.subscribe>img {
+    width: 94%;
+    margin-left: 4rem;
+}
+
+.subscribe>p {
+    text-align: center;
+    font-family: 'Georama', sansderif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: -20rem;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.subscribe>.btns {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.subscribe>.btns:hover {
+    color: red;
+}
+
+.popup {
+    position: absolute;
+    background: #ffffff;
+    height: 300px;
+    margin-top: -7rem;
+    width: 53rem;
+    border-radius: 26px;
+    margin-left: 15rem;
+    text-align: center;
+}
+
+.popup-content {
+    padding-top: 2rem;
+}
+
+.popup-content>strong {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.popup-content>ul>li {
+    text-align: left;
+}
+
+.popup-content>ul {
+    padding-left: 5rem;
+    padding-top: 11px;
+}
+
+.popup-content>button {
+
+    text-align: center;
+    background-color: #2835D5;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 106px;
+    margin-top: -11px;
+    border: none;
+}
+
+.subscribe>button {
+    margin-left: 37rem;
+    margin-top: 20px;
+    width: 150px;
+    height: 53px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+
+.subscribe>button:hover {
+    color: red;
+}
+
+/*8888888888888888888888888888888888*/
+
+@media (max-width:600px) {
+
+    .subscribe>p {
+
+
+        font-size: 13px;
+        margin-top: -9rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+
+    element.style {
+        margin-left: 12rem;
+        margin-top: 1px;
+        width: 150px;
+        height: 37px;
+    }
+
+    .subscribe>img {
+        margin-left: 1rem;
+    }
+
+    .subscribe>button {
+        margin-left: 11rem;
+        margin-top: 3px;
+        width: 150px;
+        height: 34px;
+        border: none;
+    }
+
+    .popup {
+        position: absolute;
+        background: #ffffff;
+        height: 300px;
+        margin-top: -7rem;
+        width: 100%;
+
+        margin-left: 0rem;
+ 
+    }
+
+    .popup-content>ul {
+        padding-left: 1rem;
+        padding-top: 11px;
+    }
 }
