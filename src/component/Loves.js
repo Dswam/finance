@@ -47,25 +47,25 @@ const Loves = () => {
             <div className='row'>
                 <div className='col-lg-8 col-sm-12 btnstyles'>
                     <button onClick={() => handleClick("https://savart.com/wp-content/themes/digitalnests/assets/videos/video-preview1.mp4")}>
-                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client1.png" style={{border: "none",marginRight: '10px'}}/>
+                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client1.png" alt="" style={{border: "none",marginRight: '10px'}}/>
                     </button>
                     <button onClick={() => handleClick("https://savart.com/wp-content/themes/digitalnests/assets/videos/video-preview2.mp4")}>
-                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client2.png" style={{border: "none",marginRight: '10px'}}/>
+                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client2.png" alt="" style={{border: "none",marginRight: '10px'}}/>
                         
                     </button>
                     <button onClick={() => handleClick("https://savart.com/wp-content/themes/digitalnests/assets/videos/video-preview3.mp4")}>
-                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client3.png" style={{border: "none",marginRight: '10px'}}/>
+                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client3.png" alt="" style={{border: "none",marginRight: '10px'}}/>
                         
                     </button>
                     <button onClick={() => handleClick("https://savart.com/wp-content/themes/digitalnests/assets/videos/video-preview4.mp4")}>
-                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client4.png" style={{border: "none",marginRight: '10px'}}/>
+                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client4.png" alt="" style={{border: "none",marginRight: '10px'}}/>
                     </button>
                     <button onClick={() => handleClick("https://savart.com/wp-content/themes/digitalnests/assets/videos/video-preview5.mp4")}>
-                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client5.png" style={{border: "none",marginRight: '10px'}}/>
+                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client5.png" alt="" style={{border: "none",marginRight: '10px'}}/>
                         
                     </button>
                     <button onClick={() => handleClick("https://savart.com/wp-content/themes/digitalnests/assets/videos/video-preview6.mp4")}>
-                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client6.png" style={{border: "none",marginRight: '10px'}}/>
+                    <img id="client-image1" class="client-images" src="https://savart.com/wp-content/themes/digitalnests/assets/images/client6.png" alt="" style={{border: "none",marginRight: '10px'}}/>
                         
                     </button>
                 </div>

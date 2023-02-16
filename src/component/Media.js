@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, {  useState } from 'react'
 import "../cssComponent/media.css"
 import yourstory from '../image/your-story.png'
 import img2 from '../image/way2news.png'

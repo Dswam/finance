@@ -1,7 +1,7 @@
 import React from 'react'
 import Beneits from '../Beneits'
-import About from '../component/About'
-import Login from '../component/Login'
+import Faq from '../component/Faq'
+import HereforYou from '../component/HereforYou'
 import Loves from '../component/Loves'
 import Media from '../component/Media'
 import SavatInNUmbers from '../component/SavatInNUmbers'
@@ -17,6 +17,8 @@ const Home = () => {
     <SavatInNUmbers/>
     <Loves/>
     <Media/>
+    <HereforYou/>
+    <Faq/>
    </>
    
   )

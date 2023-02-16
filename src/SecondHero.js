@@ -8,8 +8,6 @@ import countries from "./image/countries.png"
 import hand from "./image/hand.png"
 import chart from "./image/chart-main.png"
 import main from "./image/video-main-image.png"
-import walk from "./image/Walkthrough-thumbnail.png"
-import Beneits from './Beneits'
 
 const SecondHero = () => {
     return (

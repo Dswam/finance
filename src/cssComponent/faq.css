@@ -1,0 +1,44 @@
+.faqcol{
+    display: flex;
+}
+.faqcol>P{
+    font-size: 24px;
+    border-radius: 50%;
+    color: #000000;
+    height: 35px;
+    margin-top: 10px;
+}
+.faqcol>h5{
+
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    font-family: 'Georama',sans-serif;
+    font-size: 16px;
+    color: #677294;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.faqcol8{
+    word-break: break-word;
+    overflow-wrap: break-word;
+    border: 1px solid #677294;
+    width: 46%;
+    margin-right: 43px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    margin-left: auto;
+}
+@media(max-width:600px){
+    .faqcol8{
+        margin-left: auto;
+        width: 92%;
+        margin-right: auto;
+        
+    }
+    .faqr{
+        margin-top:3rem
+    }
+   
+}

@@ -1,0 +1,92 @@
+.for {
+    margin-top: 15rem;
+}
+
+.foru>img {
+
+    width: 81%;
+    height: auto;
+    margin-left: 7rem;
+
+}
+
+.houu>h3 {
+    width: 77%;
+    height: auto;
+    margin: 10px 0;
+    font-family: 'Georama', sanserif;
+    font-size: 35px;
+    color: #08054E;
+    font-weight: bold;
+}
+
+.houu>p {
+
+    width: 100%;
+    height: auto;
+    margin: 10px 0 30px 0;
+    font-family: 'Roboto', sanserif;
+    font-size: 14px;
+    color: #677294;
+}
+
+.innerhou>P {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 30px 0;
+    font-family: 'Roboto', sanserif;
+    font-size: 14px;
+    color: #677294;
+}
+
+.innerhou>input {
+
+    float: left;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #08054E;
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #FCFCFC;
+}
+
+.innerhou>button {
+
+    width: 166px;
+    height: auto;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #2835D5;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.mobilelink img {
+    width: 104px;
+    margin-top: 3rem;
+}
+
+.apple {
+    margin-left: -204px;
+    margin-right: 10px;
+}
+
+/*8888888888888888888888888888*/
+
+@media(max-width:600px) {
+
+    .foru>img {
+
+        width: 100%;
+        margin-left: 0rem;
+
+    }
+}

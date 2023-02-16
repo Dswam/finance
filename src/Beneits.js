@@ -1,5 +1,4 @@
 import React from 'react'
-import SavatInNUmbers from './component/SavatInNUmbers'
 import "./cssComponent/Benits.css"
 import benefits1 from "./image/benefits-1.png"
 import benefits2 from "./image/benefits-2.png"

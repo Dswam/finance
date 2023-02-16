@@ -1,6 +1,5 @@
 import React from 'react'
 import "../cssComponent/Herosection.css"
-import banner from "../image/banner-2.jpg"
 import header from "../image/header-image.png"
 const HeroSection = () => {
   return (
