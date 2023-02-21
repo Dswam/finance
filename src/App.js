@@ -11,6 +11,7 @@ const Login=React.lazy(()=>import("./component/Login"))
 const Contact=React.lazy(()=>import("./component/Contact"))
 function App() {
   return (
+    
     <>
       <BrowserRouter>
         <Header />

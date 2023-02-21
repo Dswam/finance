@@ -65,7 +65,7 @@ const SecondHero = () => {
                 </div>
 
             </div>
-            <div className='row'>
+            <div className='row img3231'>
                 <div className='col-lg-8 col-sm-12 making'>
                     We focus on making your money work hard for you, while you focus on living a full life.
                 </div>

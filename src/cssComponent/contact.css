@@ -1,7 +1,7 @@
 .backs {
     background-color: #08054E;
     padding-top: 85px;
-    margin-top:3rem;
+
 }
 
 h1 {
@@ -89,7 +89,7 @@ textarea {
 .input-container {
     width: 650px;
     max-width: 100%;
-    margin: 20px auto 25px auto;
+    margin: 20px auto 0px auto;
 }
 
 .submit-btn {

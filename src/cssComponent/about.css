@@ -1,0 +1,35 @@
+.aboutcol1{
+    width: 51%;
+    margin:2rem auto 2rem auto
+}
+.aboutcol2>p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutcol2{
+    width: 39%;
+    margin:2rem auto 2rem auto ;
+}
+.aboutcol4>h3{
+    text-align: center;
+}
+.aboutcol4{
+    margin:2rem auto 2rem auto
+}
+.aboutcol5>img{
+    border-radius: 50%;
+    width: 63%;
+    float: right;
+}
+.aboutcol5{
+    margin:2rem auto 2rem auto ;
+}
+.aboutcol6{
+    margin-right: auto;
+    margin-top: 4rem;
+}
+.aboutcol6>p{
+    float: left;
+}

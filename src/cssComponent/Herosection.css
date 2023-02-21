@@ -53,3 +53,16 @@
     margin-left: 6rem;
     margin-top: 12px;
 }
+
+@media(max-width:600px){
+
+    .texts {
+        padding-top: 10rem;
+    }
+    .image-header>img {
+        display: none;
+    }
+    .texts>h1 {
+        margin-left: -12px;
+    }
+}

@@ -5,7 +5,6 @@
 
     width: 100%;
     height: auto;
-    margin-top: 5rem;
     padding-top: 50px;
     background-color: #08054E;
  }
@@ -92,8 +91,13 @@
  .footercol3>div>img{
 
     margin-bottom: 5px;
+    padding-left: 2rem;
  }
 
  .footerrow{
     padding-bottom: 2rem;
+ }
+
+ .footercol3{
+   padding-left: 12rem;
  }

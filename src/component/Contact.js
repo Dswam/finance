@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <HeroSection />
-      <div className="container backs">
+      <div className="container-fluid backs">
         <div className="row">
           <h1>contact us</h1>
         </div>

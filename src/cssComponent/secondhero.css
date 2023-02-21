@@ -181,6 +181,7 @@ span {
     .savartportfolio {
     
         margin-top: 22rem;
+        width: 100%;
     
     }
 
@@ -202,5 +203,15 @@ span {
     .money>.imgmoney1 {
         width: 28% !important;
         margin-left: 4rem;
+    }
+
+    .aiDriven {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .money>.imgmoney2{
+        padding-left:0rem;
+        padding-right:0rem;
     }
 }
