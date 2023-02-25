@@ -33,3 +33,17 @@
 .aboutcol6>p{
     float: left;
 }
+.aboutcol7{
+  
+text-align: center;
+   margin-bottom: 2rem;
+}
+.aboutcol7>img{
+    border-radius: 50%;
+    width: 63%;
+}
+.aboutcol7>h3{
+    color: #5c5656;
+    font-size: 22px;
+    font-weight: 500;
+}

@@ -1,7 +1,50 @@
 import React from 'react'
 import HeroSection from '../pages/HeroSection'
 import "../cssComponent/about.css"
+
+  const people = [
+
+    {
+      img: "https://zerodha.com/static/images/Nikhil.jpg",
+      name:'Nikhil Kamath',
+      position:"Co-founder & CFO"
+    },
+    {
+      img: "https://zerodha.com/static/images/Kailash.jpg",
+      name:"Dr. Kailash Nadh",
+      position:"CTO"
+    },
+    {
+      img: "https://zerodha.com/static/images/Venu.jpg",
+      name:"Venu Madhav",
+      position:"COO"
+    },
+
+    {
+      img: "https://zerodha.com/static/images/Hanan.jpg",
+      name:"Hanan Delvi",
+      position:"CCO"
+    },
+    {
+      img: "https://zerodha.com/static/images/Seema.jpg",
+      name:"Seema Patil",
+      position:"CQO"
+    },
+    {
+      img: "https://zerodha.com/static/images/karthik.jpg",
+      name:"Karthik Rangappa",
+      position:"Chief of Education"
+    },
+    {
+      img: "https://zerodha.com/static/images/Austin.jpg",
+      name:"Austin Prakesh",
+      position:"Director Strategy"
+    },
+  ]
+
 const About = () => {
+
+
   return (
     <>
       <HeroSection />
@@ -43,10 +86,21 @@ const About = () => {
 
             <p>He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC).
 
-            Playing basketball is his zen.</p>
+              Playing basketball is his zen.</p>
+          </div>
+          <div className='row'>
+            {people.map((val) => {
+              return (
+                <div className='col-lg-4 col-sm-12 aboutcol7'>
+                  <img src={val.img} alt="" />
+                  <h3>{val.name}</h3>
+                  <p>{val.position}</p>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
-    </div>
     </>
 
   )

@@ -1,0 +1,37 @@
+.prodcol1>h1{
+    font-size: 2.75rem;
+    line-height: 1.25;
+    color:#08054E;
+}
+.prodcol1>P{
+   color: #677294;
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+.prodcol1{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.prodcol3{
+    display: flex;
+}
+.prodcol3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+.innercol3{
+    margin-top: 2rem;margin-top: 2rem;
+    width: 36%;
+    margin-left: auto;
+}
+.prodcol4{
+    padding-top: 7rem;
+    width: 50%;
+}
+.prodcol7{
+    text-align: center;
+    font-size: 22px;
+}
