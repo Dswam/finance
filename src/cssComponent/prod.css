@@ -35,3 +35,38 @@
     text-align: center;
     font-size: 22px;
 }
+.locol{
+    text-align: center;
+    margin-top: 6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.locol>h1{
+   color:#08054E;
+
+}
+.locol>p{
+    color: #677294;
+}
+.alcols{
+    width: 52%;
+}
+.almaim{
+    margin-top: 4rem;
+    text-align: center;
+}
+.logcol{
+    text-align: center;
+}
+.logcol>button{
+    width: 17rem;
+    height: auto;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background-color: #2835D5;
+    color: #ffffff;
+    border: none;
+    justify-content: center;
+    margin-bottom: 6rem;
+    margin-top:2rem
+
+}

@@ -1,0 +1,19 @@
+.investconatin{
+    margin-top: 11rem;
+}
+.investcol{
+    text-align: center;
+}
+.investcol>h1{
+    color: #08054E;
+}
+.investcol>h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #677294;
+}
+
+.mainimgcol{
+    text-align: center;
+    margin-top: 3rem;
+}

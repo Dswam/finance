@@ -43,6 +43,26 @@ const prod = [
 
   }
 ]
+
+const imgs = [
+  {
+    url: 'https://zerodha.com/static/images/products/smallcase-logo.png',
+    title: "Thematic investment platform"
+
+  },
+  {
+    url: 'https://zerodha.com/static/images/products/streak-logo.png',
+    title: "Algo & strategy platform"
+  },
+  {
+    url: 'https://zerodha.com/static/images/products/sensibull-logo.svg',
+    title: "Options trading platform"
+  },
+  {
+    url: 'https://zerodha.com/static/images/products/goldenpi-logo.png',
+    title: "Bonds trading platform"
+  },
+]
 const Login = () => {
   return (
     <>
@@ -89,7 +109,28 @@ const Login = () => {
         </div>
         <div className='row'>
           <div className='col-1g-12 col-sm-12 prodcol7'>
-         <p>Want to know more about our technology stack? Check out the<NavLink to="/blog"> Zerodha.tech </NavLink> blog.</p> 
+            <p>Want to know more about our technology stack? Check out the<NavLink to="/blog"> Zerodha.tech </NavLink> blog.</p>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12 locol'>
+            <h1>The Zerodha Universe</h1>
+            <p>Extend your trading and investment experience even further with our partner platforms</p>
+          </div>
+        </div>
+        <div className='row almaim'>
+          {imgs.map((val) => {
+            return (
+              <div className='col-lg-3 col-sm-12 '>
+                <img src={val.url} alt={val.title} className="alcols" />
+                <p>{val.title}</p>
+              </div>
+            )
+          })}
+        </div>
+        <div className='row'>
+          <div className='col-lg-12 col-sm-12 logcol'>
+            <button>Sign up now</button>
           </div>
         </div>
       </div>
